@@ -1,76 +1,58 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+# Eddy Mintela — Portfolio
 
-<br/>
+**Live site: [eddymintela.dev](https://eddymintela.dev/)**
 
-<center>
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
-
-</center>
-
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
-
-## TL;DR
-
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
-
-## Built With
-
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
-
-This project was built using these technologies.
-
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+Personal portfolio of Eddy Wini Mintela, a Site Reliability Engineer, DevOps, Platform, and Cloud Engineer at Amazon Web Services (AWS), and an AI Software Engineer at Mercor.
 
 ## Features
 
-**📖 Multi-Page Layout**
+- **Single-page layout**: Home, About, Projects, and Resume sit on one scrolling page. The navbar scrolls to each section, and `/about`, `/project`, and `/resume` jump straight to theirs.
+- **Scroll-reveal animation**: sections fade and slide in as they come into view, and stay still for visitors who have reduced motion turned on.
+- **Fully responsive**: built with React-Bootstrap.
+- **GitHub contribution calendar** and a skills grid covering languages, cloud, and DevOps tools.
+- **SEO-ready**: Open Graph and Twitter tags, structured data, a sitemap, and `robots.txt`.
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+## Built With
 
-**📱 Fully Responsive**
+- React 17 (Create React App)
+- React-Bootstrap and CSS
+- tsparticles, typewriter-effect, react-parallax-tilt
+- Hosted on Vercel
 
-## Getting Started
+## Running Locally
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+You need [Node.js](https://nodejs.org/) and `git`.
 
-## 🛠 Installation and Setup Instructions
+```bash
+git clone https://github.com/emintela/eddymintela.git
+cd eddymintela
+npm install --legacy-peer-deps
+npm start
+```
 
-1. Installation: `npm install`
+Then open [http://localhost:3000](http://localhost:3000). The page reloads as you edit.
 
-2. In the project directory, you can run: `npm start`
+To make a production build in `build/`:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+```bash
+npm run build
+```
 
-## Usage Instructions
+## Project Structure
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+- `src/components/Home/`: hero, intro, and the page that stacks every section
+- `src/components/About/`: about card, skills, tools, GitHub calendar
+- `src/components/Projects/`: project cards
+- `src/components/Resume/`: resume and contact section
+- `src/components/Reveal.js`: scroll-reveal wrapper
+- `src/components/ScrollToSection.js`: scrolls to a section when the URL changes
+- `public/`: `index.html` (SEO tags), favicon, sitemap, and Open Graph image
 
-### Show your support
+## Contact
 
-Give a ⭐ if you like this website!
+- GitHub: [@emintela](https://github.com/emintela)
+- LinkedIn: [Eddy Mintela](https://www.linkedin.com/in/eddy-mintela-5965347/)
 
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+## Credits
+
+Based on the open-source [Portfolio template](https://github.com/soumyajit4419/Portfolio) by Soumyajit Behera.
