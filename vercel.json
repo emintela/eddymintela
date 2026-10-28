@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    { "source": "/((?!static|favicon.png|manifest.json|robots.txt|sitemap.xml|og-image.jpg).*)", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/sitemap.xml",
+      "headers": [{ "key": "Content-Type", "value": "application/xml" }]
+    }
+  ]
+}
