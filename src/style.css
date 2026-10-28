@@ -257,6 +257,26 @@ button:focus {
   height: 100%;
 }
 
+/* Sections fade and slide up as they scroll into view */
+.reveal {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
 .home-header {
   padding-top: 80px !important;
 }

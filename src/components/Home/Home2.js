@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section" id="intro">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -24,7 +24,7 @@ function Home2() {
               infrastructure operations, and building scalable solutions
               using
               <i>
-                <b className="purple"> AWS, Linux, Python, </b>
+                <b className="purple"> AWS, Linux, Python, Go (Golang), </b>
               </i>
               and modern DevOps technologies.
               <br />

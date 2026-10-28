@@ -22,7 +22,7 @@ function AboutCard() {
             </span>, where I've focused on incident response, cloud
             monitoring, infrastructure operations, and building scalable
             solutions using <span className="purple">
-              AWS, Linux, Python,
+              AWS, Linux, Python, Go (Golang),
             </span>{" "}
             and modern DevOps technologies.
             <br />

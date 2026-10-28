@@ -42,7 +42,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Go} alt="go" />
-        <div className="tech-icons-text">Go</div>
+        <div className="tech-icons-text">Go (Golang)</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Node} alt="node" />

@@ -1,15 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function ResumeNew() {
   return (
     <div>
-      <Container fluid className="resume-section">
-        <Particle />
+      <Container fluid className="resume-section" id="resume">
         <Row style={{ justifyContent: "center", paddingTop: "100px" }}>
           <Col md={8} style={{ textAlign: "center" }}>
             <h1 style={{ fontSize: "2.3em" }}>
